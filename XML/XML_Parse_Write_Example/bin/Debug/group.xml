@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Root>
+  <Group Name="G1">
+    <item Type="T1">
+      <name>apple</name>
+      <price>1</price>
+    </item>
+
+    <item Type="T2">
+      <name>banana</name>
+      <price>2</price>
+    </item>
+
+    <item Type="T3">
+      <name>pitch</name>
+      <price>3</price>
+    </item>
+  </Group>
+
+  <Group Name="G2">
+    <item Type="T1">
+      <name>mango</name>
+      <price>4</price>
+    </item>
+
+    <item Type="T2">
+      <name>watermelon</name>
+      <price>5</price>
+    </item>
+  </Group>
+
+  <Group Name="G3">
+    <item Type="T1">
+      <name>carrot</name>
+      <price>6</price>
+    </item>
+  </Group>
+
+  <Group Name="G4">
+
+  </Group>
+</Root>

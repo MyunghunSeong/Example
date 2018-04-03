@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<item id="abc">
+    <name>wrench</name>
+    <price>
+        <abc>def</abc>
+    </price>
+    <item>
+        <cdf>ghi</cdf>
+    </item>
+</item>
