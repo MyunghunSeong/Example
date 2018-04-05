@@ -1,0 +1,8 @@
+c:\users\gns91\documents\visual studio 2010\Projects\seek_ex\bin\Debug\seek_ex.exe
+c:\users\gns91\documents\visual studio 2010\Projects\seek_ex\bin\Debug\seek_ex.pdb
+c:\users\gns91\documents\visual studio 2010\Projects\seek_ex\obj\x86\Debug\seek_ex.exe
+c:\users\gns91\documents\visual studio 2010\Projects\seek_ex\obj\x86\Debug\seek_ex.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\obj\x86\Debug\seek_ex.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\obj\x86\Debug\seek_ex.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\bin\Debug\seek_ex.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\bin\Debug\seek_ex.pdb
