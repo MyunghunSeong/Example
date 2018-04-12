@@ -1,0 +1,10 @@
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.Form1.resources
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.Properties.Resources.resources
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.csproj.GenerateResource.Cache
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\bin\Debug\SocketServer_Example.exe
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\bin\Debug\SocketServer_Example.pdb
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.exe
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.pdb
+C:\Users\gns91\documents\visual studio 2010\Projects\SocketServer_Example\obj\x86\Debug\SocketServer_Example.csprojResolveAssemblyReference.cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example\obj\x86\Debug\SocketServer_Example.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example\obj\x86\Debug\SocketServer_Example.pdb
