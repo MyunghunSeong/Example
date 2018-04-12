@@ -1,0 +1,14 @@
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).exe
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).pdb
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example_Default_.Form1.resources
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example_Default_.Properties.Resources.resources
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).csproj.GenerateResource.Cache
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).exe
+c:\users\gns91\documents\visual studio 2010\Projects\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example_Default_.Form1.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example_Default_.Properties.Resources.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).csproj.GenerateResource.Cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).pdb
