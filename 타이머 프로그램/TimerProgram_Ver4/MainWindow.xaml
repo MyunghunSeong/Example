@@ -1,0 +1,76 @@
+﻿<Window x:Class="TimerProgram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TimerProgram"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525"
+        KeyDown="On_KeyDown">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="Magenta"/>
+            <Setter Property="Text" Value="Timer"/>
+         </Style>
+        
+        <Style TargetType="TextBox">
+            <Setter Property="TextAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="MediumPurple"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        
+    </Window.Resources> 
+    
+    <Grid Initialized="Grid_Initialized" Name="gridView">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+        
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Label Name="label1" Content="현재 시간 : " VerticalAlignment="Center" FontSize="20" Foreground="DarkCyan"/>
+            <TextBox Text="{Binding Path=Now, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Name="text1" BorderThickness="0"
+                     Width="{Binding ElementName=gridView, Path=ActualWidth}" Height="{Binding ElementName=gridView, Path=ActualHeigth}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Label Content="시간 지정 : " VerticalAlignment="Center" FontSize="20" Foreground="Chocolate"/>
+            <TextBox Name="text2" Width="{Binding ElementName=label1, Path=ActualWidth}"/>
+            <Label Content="분" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"/>
+        </StackPanel>
+
+        <Button Name="Btn_Reset" Grid.Row="2" Grid.Column="2" Click="Btn_Reset_Click">
+            <Button.Content>리셋</Button.Content>
+        </Button>
+        
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Label Content="남은 시간 : " VerticalAlignment="Center" FontSize="20" Foreground="DarkViolet"/>
+            <TextBox Name="text3" Width="{Binding ElementName=label1, Path=ActualWidth}" BorderThickness="0"
+                     Text="{Binding Path=Rest, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="분" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"/>
+        </StackPanel>  
+        
+        <Canvas Grid.Row="4" Grid.Column="0">
+            <Rectangle Name="pictureBox" Width="{Binding ElementName=gridView, Path=ActualWidth}" Height="{Binding ElementName=gridView, Path=ActualHeight}"/>
+        </Canvas> 
+                
+        <Button Name="btn" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Click="Btn_Click">
+            <Button.Content>시작</Button.Content>
+        </Button>
+    </Grid>
+</Window>

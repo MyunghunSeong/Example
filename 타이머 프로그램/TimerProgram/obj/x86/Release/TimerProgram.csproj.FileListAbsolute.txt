@@ -1,0 +1,26 @@
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\bin\Release\TimerProgram.exe
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\bin\Release\TimerProgram.pdb
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\MainWindow.g.cs
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\App.g.cs
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram_MarkupCompile.cache
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram_MarkupCompile.lref
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\MainWindow.baml
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram.g.resources
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram.Properties.Resources.resources
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram.csproj.GenerateResource.Cache
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram.exe
+C:\Users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Release\TimerProgram.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\bin\Release\TimerProgram.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\bin\Release\TimerProgram.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\MainWindow.g.cs
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\App.g.cs
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram_MarkupCompile.cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram_MarkupCompile.lref
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\MainWindow.baml
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram.g.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram.Properties.Resources.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram\obj\x86\Release\TimerProgram.csproj.GenerateResource.Cache

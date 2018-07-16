@@ -1,0 +1,13 @@
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\bin\Debug\TimerProgram.exe
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\bin\Debug\TimerProgram.pdb
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\MainWindow.baml
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\MainWindow.g.cs
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\App.g.cs
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram_MarkupCompile.cache
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram.g.resources
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram.Properties.Resources.resources
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram.csproj.GenerateResource.Cache
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram.exe
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram.pdb
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\TimerProgram_MarkupCompile.lref
+c:\users\gns91\documents\visual studio 2010\Projects\TimerProgram\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
