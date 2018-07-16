@@ -83,3 +83,15 @@ C:\Users\gns91\Documents\Visual Studio 2010\Projects\TimerProgram_Ver7\obj\x86\D
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.csproj.GenerateResource.Cache
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.exe
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\bin\Debug\TimerProgram.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\bin\Debug\TimerProgram.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\MainWindow.g.cs
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\App.g.cs
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram_MarkupCompile.cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram_MarkupCompile.lref
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\MainWindow.baml
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.g.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.Properties.Resources.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.csproj.GenerateResource.Cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\타이머 프로그램\TimerProgram_Ver7\obj\x86\Debug\TimerProgram.pdb

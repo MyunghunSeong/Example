@@ -45,9 +45,9 @@ namespace TimerProgram
 
             string selectFile = fileNameList[randNum];
 
-            FileInfo fileInfo = new FileInfo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\TimerProgram_Ver7\\bin\\Release\\resource\\" + selectFile);
+            FileInfo fileInfo = new FileInfo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\예제프로그램\\타이머 프로그램\\TimerProgram_Ver7\\bin\\Release\\resource\\" + selectFile);
 
-            fileInfo.CopyTo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\TimerProgram_Ver7\\bin\\Release\\resource\\image\\image2.gif", true);
+            fileInfo.CopyTo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\예제프로그램\\타이머 프로그램\\TimerProgram_Ver7\\bin\\Release\\resource\\image\\image2.gif", true);
         }
 
 
