@@ -51,7 +51,7 @@ namespace seek_ex
             foreach (XAttribute Iel in item)             
                  ItemAttrValue.Add(Iel.Value);
 
-            var distin_Item = ItemAttrValue.Select(a => a).Distinct();
+            var distin_Item = ItemAttrValue.Select( (a) => a ).Distinct();
 
             foreach (XAttribute Gel in group)
                 GroupAttrValue.Add(Gel.Value);

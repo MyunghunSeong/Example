@@ -2,3 +2,5 @@ c:\users\gns91\documents\visual studio 2010\Projects\XML_Parse_Write_Example\bin
 c:\users\gns91\documents\visual studio 2010\Projects\XML_Parse_Write_Example\bin\Debug\XML_Parse_Write_Example.pdb
 c:\users\gns91\documents\visual studio 2010\Projects\XML_Parse_Write_Example\obj\x86\Debug\XML_Parse_Write_Example.exe
 c:\users\gns91\documents\visual studio 2010\Projects\XML_Parse_Write_Example\obj\x86\Debug\XML_Parse_Write_Example.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Write_Example\obj\x86\Debug\XML_Parse_Write_Example.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Write_Example\obj\x86\Debug\XML_Parse_Write_Example.pdb

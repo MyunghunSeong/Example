@@ -6,3 +6,4 @@ C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\obj\x86\Debug\seek_ex.pdb
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\bin\Debug\seek_ex.exe
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\bin\Debug\seek_ex.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\XML\XML_Parse_Seek_Example\obj\x86\Debug\seek_ex.csprojResolveAssemblyReference.cache
