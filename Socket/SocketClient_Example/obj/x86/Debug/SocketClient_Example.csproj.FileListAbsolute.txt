@@ -8,3 +8,9 @@ c:\users\gns91\documents\visual studio 2010\Projects\SocketClient_Example\obj\x8
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\SocketClient_Example\obj\x86\Debug\SocketClient_Example.csprojResolveAssemblyReference.cache
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.exe
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\bin\Debug\SocketClient_Example.exe
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\bin\Debug\SocketClient_Example.pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.csprojResolveAssemblyReference.cache
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.Form1.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.Properties.Resources.resources
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketClient_Example\obj\x86\Debug\SocketClient_Example.csproj.GenerateResource.Cache

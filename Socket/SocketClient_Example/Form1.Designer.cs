@@ -41,6 +41,7 @@
             this.btn_connect = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lb_status = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -88,6 +89,7 @@
             this.tx_Port.Name = "tx_Port";
             this.tx_Port.Size = new System.Drawing.Size(156, 21);
             this.tx_Port.TabIndex = 1;
+            this.tx_Port.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tx_Port_KeyDown);
             // 
             // lb_Ip
             // 
@@ -130,6 +132,7 @@
             this.tx_msg.Name = "tx_msg";
             this.tx_msg.Size = new System.Drawing.Size(336, 21);
             this.tx_msg.TabIndex = 1;
+            this.tx_msg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tx_msg_KeyDown);
             // 
             // tx_Recv
             // 
@@ -137,6 +140,7 @@
             this.tx_Recv.Multiline = true;
             this.tx_Recv.Name = "tx_Recv";
             this.tx_Recv.ReadOnly = true;
+            this.tx_Recv.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tx_Recv.Size = new System.Drawing.Size(403, 140);
             this.tx_Recv.TabIndex = 2;
             // 
@@ -176,11 +180,22 @@
             this.lb_status.Size = new System.Drawing.Size(57, 17);
             this.lb_status.Text = "Waiting...";
             // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(174, 82);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(75, 23);
+            this.btn_clear.TabIndex = 6;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 287);
+            this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btn_connect);
             this.Controls.Add(this.btn_Send);
@@ -216,6 +231,7 @@
         private System.Windows.Forms.Button btn_connect;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel lb_status;
+        private System.Windows.Forms.Button btn_clear;
     }
 }
 

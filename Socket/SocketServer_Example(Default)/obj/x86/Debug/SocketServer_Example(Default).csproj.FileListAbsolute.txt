@@ -12,3 +12,4 @@ C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\S
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).csproj.GenerateResource.Cache
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).exe
 C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\bin\Debug\SocketServer_Example(Default).pdb
+C:\Users\gns91\Documents\Visual Studio 2010\Projects\예제프로그램\Socket\SocketServer_Example(Default)\obj\x86\Debug\SocketServer_Example(Default).csprojResolveAssemblyReference.cache

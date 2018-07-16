@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using System.Net.Sockets;
 using System.Net;
 using SimpleInspect_template.Err;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace SocketServer_Example_Default_
 {
@@ -19,7 +21,9 @@ namespace SocketServer_Example_Default_
          *        Delegate Function
          * 
          * *********************************/
-        public delegate void del_thread(int index, StringBuilder message); //Form Control을 사용하기 위한 delegate 함수
+        public delegate void del_thread(string message); //Form Control을 사용하기 위한 delegate 함수
+        public delegate void del_status(string msg, int idx);
+        public delegate void del_thread2(string msg);
         public delegate void SYSTEMERROR(String messge); //Error Process를 위한 delegate 함수
 
         /***********************************
@@ -49,6 +53,32 @@ namespace SocketServer_Example_Default_
             m_recvData = string.Empty;
         }
 
+        private void CheckConnect()
+        {
+            while (true)
+            {
+                for (int i = 0; i < m_clientList.Count; i++)
+                {
+                    if (m_clientList[i].Connected)
+                        this.BeginInvoke(new del_status(UpdataStatus), new object[] { "Connected Client", 1 });
+                    else
+                        this.BeginInvoke(new del_status(UpdataStatus), new object[] { "Waiting...", 2 });
+                }
+
+                Thread.Sleep(300);
+            }
+        }
+
+        void UpdataStatus(string msg, int idx)
+        {
+            if (idx == 1)
+                pictureBox1.BackColor = Color.Green;
+            else
+                pictureBox1.BackColor = Color.Red;
+
+            lb_Status.Text = msg;
+        }
+
         /**********************************
         * 
         *        Form Load Event
@@ -63,7 +93,9 @@ namespace SocketServer_Example_Default_
                 m_SocketClass.CreateSocket(); //서버 소켓 생성
                 m_server = m_SocketClass.Server; //생성된 소켓
                 m_server.BeginAccept(new AsyncCallback(AcceptCallBack), m_server); //접속할 클라이언트를 비동기적으로 받을 준비
-                pictureBox1.BackColor = Color.Red;
+                Thread newThread = new Thread(() => CheckConnect());
+                newThread.IsBackground = true;
+                newThread.Start();
             }
             catch (_MainException err)
             {
@@ -88,9 +120,7 @@ namespace SocketServer_Example_Default_
 
             try
             {
-                Socket client = m_server.EndAccept(ar); //클라이언트의 접속을 완료
-
-                this.Invoke(new del_thread(InputText), new object[] { 1, null }); //접속 상태 변경 
+                Socket client = m_server.EndAccept(ar); //클라이언트의 접속을 완료                
 
                 m_server.BeginAccept(AcceptCallBack, null); //다른 클라이언트 접속 대기
 
@@ -117,19 +147,13 @@ namespace SocketServer_Example_Default_
         *      Connect Status Invoke
         * 
         **********************************/
-        void InputText(int idx, StringBuilder msg)
+        void InputText(string msg)
         {
             ERR_RESULT result = new ERR_RESULT();
 
             try
             {
-                if (idx == 1)
-                {
-                    pictureBox1.BackColor = Color.Green; //접속시 색상 Green으로 변경
-                    lb_Status.Text = "Connected"; //클라이언트 접속 상태 변경
-                }
-                else
-                    tx_log.Text += msg;
+                this.BeginInvoke(new del_thread2(InputData), new object[] {msg});
             }
             catch (_MainException err)
             {
@@ -141,6 +165,11 @@ namespace SocketServer_Example_Default_
                 result = ErrProcess.SetErrResult(err);
                 m_err.SetErrCall(result);
             }
+        }
+
+        void InputData(string msg)
+        {
+            tx_log.Text += msg;
         }
 
         /*********************************
@@ -162,7 +191,7 @@ namespace SocketServer_Example_Default_
 
                 Array.Copy(m_asyncObject.Buffer, recvByte, RecvSize);
 
-                m_recvData = System.Text.Encoding.UTF8.GetString(recvByte); //Byte Array -> String
+                m_recvData = System.Text.Encoding.Default.GetString(recvByte); //Byte Array -> String
 
                 WriteLogMsg(m_recvData); //받은 메시지 출력
 
@@ -233,7 +262,7 @@ namespace SocketServer_Example_Default_
 
                 msg = Convert.ToString(msgLog);
 
-                this.Invoke(new del_thread(InputText), new object[] { 2, msgLog }); //메시지 출력 함수 Invoke
+                this.Invoke(new del_thread(InputText), new object[] { msg }); //메시지 출력 함수 Invoke
             }
             catch (_MainException err)
             {
