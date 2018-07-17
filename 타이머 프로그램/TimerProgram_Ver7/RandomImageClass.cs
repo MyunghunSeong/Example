@@ -38,6 +38,7 @@ namespace TimerProgram
         private void inner_GetRandomFile()
         {
             int randNum = 0;
+            string curDir = string.Empty;
 
             Random r = new Random((int)DateTime.Now.Ticks);
 
@@ -45,11 +46,11 @@ namespace TimerProgram
 
             string selectFile = fileNameList[randNum];
 
-            FileInfo fileInfo = new FileInfo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\예제프로그램\\타이머 프로그램\\TimerProgram_Ver7\\bin\\Release\\resource\\" + selectFile);
+            curDir = Environment.CurrentDirectory;
 
-            fileInfo.CopyTo("C:\\Users\\gns91\\Documents\\Visual Studio 2010\\Projects\\예제프로그램\\타이머 프로그램\\TimerProgram_Ver7\\bin\\Release\\resource\\image\\image2.gif", true);
+            FileInfo fileInfo = new FileInfo(curDir + "\\resource\\" + selectFile);
+
+            fileInfo.CopyTo(curDir + "\\resource\\image\\image2.gif", true);
         }
-
-
     }
 }
